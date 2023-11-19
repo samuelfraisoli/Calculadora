@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- LinearLayout pantallas resultado e historial -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:orientation="vertical">
+
+        <!-- Caja de historial -->
+        <EditText
+            android:id="@+id/historial"
+            style="@style/HistorialVerticalStyle" />
+
+        <EditText
+            android:id="@+id/resultado"
+            style="@style/ResultadoVerticalStyle" />
+    </LinearLayout>
+
+    <!-- GridLayout botones -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.50"
+        android:columnCount="4"
+        android:rowCount="5">
+
+
+        <Button
+            android:id="@+id/buttonAC"
+            style="@style/BotonAC"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="AC" />
+
+        <Button
+            android:id="@+id/buttonBorrar"
+            style="@style/BotonBorrar"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="\u232B" />
+
+        <Button
+            android:id="@+id/buttonPorcentaje"
+            style="@style/BotonOperacion"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="%" />
+
+        <Button
+            android:id="@+id/buttonDividir"
+            style="@style/BotonOperacion"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/buttonMultiplicar"
+            style="@style/BotonOperacion"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:text="x" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/buttonRestar"
+            style="@style/BotonOperacion"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/buttonSumar"
+            style="@style/BotonOperacion"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/buttonDecimal"
+            style="@style/BotonRedondoVerticalStyle"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="," />
+
+        <Button
+            android:id="@+id/buttonIgual"
+            style="@style/BotonVerticalIgualStyle"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:text="=" />
+    </GridLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

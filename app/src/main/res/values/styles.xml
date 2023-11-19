@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Aquí se especifica el tamaño y la forma de los elementos, los colores se eligen en la carpeta themes -->
+<resources>
+
+
+    <!-- Estilo para las cajas de texto -->
+    <style name="CajasTextoStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/ligtblueBackground </item>
+        <item name="android:editable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.50</item>
+        <item name="android:text"></item>
+    </style>
+
+    <!-- Estilo cajas texto verticales -->
+    <style name="HistorialVerticalStyle" parent="CajasTextoStyle">
+        <item name="android:textSize">50sp</item>
+
+    </style>
+
+    <style name="ResultadoVerticalStyle" parent="CajasTextoStyle">
+        <item name="android:textSize">100sp</item>
+
+    </style>
+
+    <!-- Estilo cajas texto horizontales -->
+    <style name="HistorialHorizontalStyle" parent="CajasTextoStyle">
+        <item name="android:textSize">35sp</item>
+
+    </style>
+
+    <style name="ResultadoHorizontalStyle" parent="CajasTextoStyle">
+        <item name="android:textSize">60sp</item>
+
+    </style>
+
+
+    <!-- Estilo para botones -->
+    <style name="BotonRedondoVerticalStyle">
+        <item name="android:backgroundTint">@color/buttonBackgroundColor</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BotonVerticalIgualStyle" parent="BotonRedondoVerticalStyle">
+        <item name="android:backgroundTint">@color/buttonIgualColor</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:layout_rowWeight">1</item>
+    </style>
+
+    <style name="BotonAC" parent="BotonRedondoVerticalStyle">
+        <item name="android:backgroundTint">@color/buttonACColor</item>
+    </style>
+
+    <style name="BotonOperacion" parent="BotonRedondoVerticalStyle">
+        <item name="android:backgroundTint">@color/buttonOperacionColor</item>
+    </style>
+
+    <style name="BotonBorrar" parent="BotonRedondoVerticalStyle">
+        <item name="android:backgroundTint">@color/buttonBorrarColor</item>
+    </style>
+
+
+
+
+
+</resources>

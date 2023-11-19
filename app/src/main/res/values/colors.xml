@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ligtblueBackground">#EAF0FB</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonBackgroundColor">#F5F7FA</color>
+    <color name="buttonOperacionColor">#C2E7FE</color>
+    <color name="buttonIgualColor">#D3E2FC</color>
+    <color name="buttonACColor">#A5CEB2</color>
+    <color name="buttonBorrarColor">#E3F7E9</color>
+    #E3F7E9
+    <color name="black">#1F1F1F</color>
+    <color name="cyan">#18FFFF</color>
+    #18FFFF
+
+</resources>
